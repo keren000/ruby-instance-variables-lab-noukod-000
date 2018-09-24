@@ -1,34 +1,9 @@
 class Dog
-  def initialize(name)
-    @myname = name
+  def name=(dog_name)
+    this_dogs_name = dog_name
   end
-
-  def set_name( aName )
-
-    @myname = aName
-
+ 
+  def name
+    this_dogs_name
   end
-
-
-
-  def get_name
-
-    return @myname
-
-  end
-
-  def talk
-
-    return 'woof!'
-
-  end
-
 end
-
-
-
-mydog = Dog.new('Fido')
-
-puts(mydog.get_name)
-
-puts(mydog.talk)
