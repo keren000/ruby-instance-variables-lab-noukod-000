@@ -1,12 +1,7 @@
 class Dog
-
   def initialize(name)
-
     @myname = name
-
   end
-
-
 
   def set_name( aName )
 
@@ -21,8 +16,6 @@ class Dog
     return @myname
 
   end
-
-
 
   def talk
 
